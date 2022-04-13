@@ -1,0 +1,9 @@
+pwd=echo %CD%
+clear=cls
+vi=vim $*
+showalias=notepad %ClinkDir%\profile\alias.bat
+loadalias=doskey /macrofile=%ClinkDir%\profile\alias.bat
+md5sum=certutil -hashfile $* MD5
+sha1sum=certutil -hashfile $* SHA1
+sha256sum=certutil -hashfile $* SHA256
+history=type %ClinkDir%\profile\clink_history

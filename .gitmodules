@@ -1,0 +1,3 @@
+[submodule "profile/clink-completions"]
+	path = profile/clink-completions
+	url = https://github.com/zyzheng/clink-completions.git

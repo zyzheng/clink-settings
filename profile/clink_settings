@@ -1,0 +1,26 @@
+# name: Auto-answer terminate prompt
+# type: enum
+# options: off,answer_yes,answer_no
+cmd.auto_answer = answer_yes
+
+# name: Argument color
+# type: color
+color.arg = bright blue
+
+# name: Argmatcher color
+# type: color
+color.argmatcher = bright magenta
+
+# name: Flag color
+# type: color
+color.flag = bright blue
+
+# name: Unexpected argument color
+# type: color
+color.unexpected = bright red
+
+# name: Where to sort matching directories
+# type: enum
+# options: before,with,after
+match.sort_dirs = before
+
